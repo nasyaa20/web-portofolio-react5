@@ -18,22 +18,31 @@ function Experience() {
         <Navbar />
         <div className='wrapper'>
             <h1>Experience</h1>
-            <VerticalTimeline>
-
-                  
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="Oktober-Desember 2022"
-    iconStyle={{ background: '	#E9967A', color: '#fff' }}
-    icon={ <FaUniversity />}
+            <VerticalTimeline>     
+                <VerticalTimelineElement
+                   className="vertical-timeline-element--work"
+                   date="Oktober-Desember 2022"
+                   iconStyle={{ background: '	#222831', color: '#fff' }}
+                   icon={ <FaUniversity />}
   >
-    <h3 className="vertical-timeline-element-title">Intern – Biro WR II, Universitas Negeri Medan</h3>
-    <h4 className="vertical-timeline-element-subtitle">Medan, Indonesia</h4>
-    <p>
-      Data Entry, Surat Menyurat, Administrasi Dasar, Pengelolaan Dokumen
+                  <h3 className="vertical-timeline-element-title">Intern – Biro WR II, Universitas Negeri Medan</h3>
+                  <h4 className="vertical-timeline-element-subtitle">Medan, Indonesia</h4>
+                  <p>
+                      Data Entry, Surat Menyurat, Administrasi Dasar, Pengelolaan Dokumen
       </p>
 
-  </VerticalTimelineElement>
+               </VerticalTimelineElement>
+               <VerticalTimelineElement
+                      className="vertical-timeline-element--work"
+                      date="Juli 2023 - Sekarang" 
+                      iconStyle={{ background: '#222831', color: '#fff' }} 
+                      icon={<SiHomeassistantcommunitystore />} 
+        >
+            <h3 className="vertical-timeline-element-title">Pustakawan - UPT SD Negeri 104214 Delitua</h3>
+            <h4 className="vertical-timeline-element-subtitle"> Delitua, Medan</h4>
+            <p>
+              Menangani dan Mencatat Buku Masuk,Memproses Sirkulasi Peminjaman dan Pengembalian Buku</p> 
+        </VerticalTimelineElement>
             </VerticalTimeline>
          
         </div>

@@ -21,7 +21,7 @@ header {
   text-align: center;
 }
 .header-jumbotron > img {
-  border-radius: 100px;
+  border-radius: 200px;
   width: 150px;
 }
 .header-jumbotron > h3 {

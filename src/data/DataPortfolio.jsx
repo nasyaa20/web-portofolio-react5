@@ -9,14 +9,14 @@ export const portfoliolist = [
     {
 
         id: '1',
-        title: 'Class Table Manner #1',
+        title: 'Gantungan Kunci Boneka #1',
         image: gambar1,
-        keterangan:'Kegiatan pelatihan etika makan resmi untuk membekali diri dengan sopan santun dan tata cara jamuan formal'
+        keterangan:''
     },
 
     {
         id: '2',
-        title: 'PKL UNIMED #2',
+        title: 'Jam Dinding dari tutup botol bekas#2',
         image: gambar2,
         keterangan:''
     },
@@ -28,7 +28,7 @@ export const portfoliolist = [
     },
     {
        id: '4',
-        title: 'Sertifikat Magang #4',
+        title: 'Gantungan Kunci Makrame #4',
         image: gambar4,
         keterangan:''
     },
